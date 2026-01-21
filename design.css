@@ -77,6 +77,26 @@ h1 {
     .image-item-4 img {
         height: 220px;
     }
+    .back-to-home {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #fd83ac;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.back-to-home:hover {
+    background-color: #e76d98;
+    transform: translateY(-2px);
+}
+
 }
 
  
+
